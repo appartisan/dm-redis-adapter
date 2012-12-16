@@ -56,18 +56,18 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<dm-core>, [">= 1.2.0"])
       s.add_runtime_dependency(%q<dm-types>, [">= 1.2.0"])
       s.add_runtime_dependency(%q<hiredis>, ["~> 0.4.0"])
-      s.add_runtime_dependency(%q<redis>, ["~> 2.2"])
+      s.add_runtime_dependency(%q<redis>, ["~> 3.0"])
     else
       s.add_dependency(%q<dm-core>, [">= 1.2.0"])
       s.add_dependency(%q<dm-types>, [">= 1.2.0"])
       s.add_dependency(%q<hiredis>, ["~> 0.4.0"])
-      s.add_dependency(%q<redis>, ["~> 2.2"])
+      s.add_dependency(%q<redis>, ["~> 3.0"])
     end
   else
     s.add_dependency(%q<dm-core>, [">= 1.2.0"])
     s.add_dependency(%q<dm-types>, [">= 1.2.0"])
     s.add_dependency(%q<hiredis>, ["~> 0.4.0"])
-    s.add_dependency(%q<redis>, ["~> 2.2"])
+    s.add_dependency(%q<redis>, ["~> 3.0"])
   end
 end
 
